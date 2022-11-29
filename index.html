@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="winner-overlay">
+      <img src="images/terry.png" class="terry-winner" />
+      <p class="winner-message">
+        Congratulations Terry! You've won the game!<br /><span id="play-again"
+          >Click to play again.</span
+        >
+      </p>
+      <img src="images/shee.png" class="shee-winner" />
+    </div>
+    <div class="page-container">
+      <div class="header-banner">
+        <p class="title">Round 1</p>
+        <img src="images/top_banner@4x.png" alt="" class="top-banner" />
+        <!-- <div class="white-bar"></div> -->
+      </div>
+      <div class="game-grid">
+        <div class="player-controls p1-controls">
+          <div class="p1-name">
+            <p class="p1-nametext">Terry Cotta™</p>
+          </div>
+          <div class="p1rock-control">
+            <div class="p1-controlbg p1rock-controlbg">
+              <p id="p1rock">q</p>
+            </div>
+            <img src="images/svg/rock.svg" alt="" class="icons rock-icon" />
+          </div>
+          <div class="p1paper-control">
+            <div class="p1-controlbg p1paper-controlbg">
+              <p id="p1paper">w</p>
+            </div>
+            <img src="images/svg/paper.svg" alt="" class="icons paper-icon" />
+          </div>
+          <div class="p1scissor-control">
+            <div class="p1-controlbg p1scissor-controlbg">
+              <p id="p1scissor">e</p>
+            </div>
+            <img
+              src="images/svg/scissors.svg"
+              alt=""
+              class="icons scissor-icon"
+            />
+          </div>
+        </div>
+        <div class="game-area">
+          <div class="player-grid">
+            <div class="character p1-character">
+              <img
+                src="images/TERRY_ANIMATIONS/TERRY_PAPER/0001.png"
+                alt=""
+                class="player-img p1-img"/>
+            </div>
+            <div class="message-container">
+              <p class="message">Rock, Paper, Scissors<br />SHOOT!</p>
+            </div>
+            <div class="character p2-character">
+              <img
+                src="images/SHEE_ANIMATIONS/SHEE_PAPER/0001.png"
+                alt=""
+                class="player-img p2-img"
+              />
+            </div>
+          </div>
+          <p class="scores p1-score">0</p>
+          <p class="scores p2-score">0</p>
+          <img src="images/FUROMAS_TABLE.png" alt="" class="table" />
+        </div>
+        <div class="player-controls p2-controls">
+          <div class="p2-name">
+            <p class="p2-nametext">Shee Tocky™</p>
+          </div>
+          <div class="p2rock-control">
+            <div class="p2-controlbg p2rock-controlbg">
+              <p id="p2rock">i</p>
+            </div>
+            <img src="images/svg/rock.svg" alt="" class="icons rock-icon" />
+          </div>
+          <div class="p2paper-control">
+            <div class="p2-controlbg p2paper-controlbg">
+              <p id="p2paper">o</p>
+            </div>
+            <img src="images/svg/paper.svg" alt="" class="icons paper-icon" />
+          </div>
+          <div class="p2scissor-control">
+            <div class="p2-controlbg p2scissor-controlbg">
+              <p id="p2scissor">p</p>
+            </div>
+            <img
+              src="images/svg/scissors.svg"
+              alt=""
+              class="icons scissor-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- <img src="images/svg/tablepage_bg.svg" alt="" class="bg-img" /> -->
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
