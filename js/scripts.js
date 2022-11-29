@@ -90,7 +90,7 @@ const greenWinner = function () {
   p1ScoreEl.textContent = `${p1Score}`;
   p2ScoreEl.textContent = `${p2Score}`;
   resetChoices();
-  terryAnimation.src = "images/terry_animations/terry_paper/0001.png";
+  terryAnimation.src = "images/TERRY_ANIMATIONS/TERRY_PAPER/0001.png";
   sheeAnimation.src = "images/SHEE_ANIMATIONS/SHEE_PAPER/0001.png";
   document.querySelector(".winner-overlay").style.backgroundColor = "green";
   document.querySelector(".winner-overlay").style.zIndex = "10";
@@ -121,7 +121,7 @@ const redWinner = function () {
   document.querySelector(".winner-overlay").style.backgroundColor = "red";
   document.querySelector(".winner-overlay").style.zIndex = "10";
   document.querySelector(".winner-overlay").style.opacity = "1";
-  terryAnimation.src = "images/terry_animations/terry_paper/0001.png";
+  terryAnimation.src = "images/TERRY_ANIMATIONS/TERRY_PAPER/0001.png";
   sheeAnimation.src = "images/SHEE_ANIMATIONS/SHEE_PAPER/0001.png";
   document.querySelector(".winner-overlay").addEventListener("click", () => {
     document.querySelector(".winner-overlay").style.opacity = "0";
